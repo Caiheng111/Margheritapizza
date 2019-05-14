@@ -360,6 +360,7 @@
     }
 
     .news-feature{
+        margin-left:1rem;
         display: grid;
         grid-template-columns: 1fr;
         grid-row-gap: 5rem;
@@ -378,7 +379,6 @@
 
     /* instagram */
     .instagram .instagram-info{
- 
         width: 25rem;
       
     }
