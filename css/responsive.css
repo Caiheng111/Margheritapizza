@@ -1,0 +1,275 @@
+
+
+@media (max-width:996px){
+    /* banner  */
+    .banner-content > h2 {
+        margin:16px 15px;
+        font-size: 32px;
+      }
+
+
+    /* Feature  */
+  .feature .container{
+    width: 25rem;
+    margin:0 auto;
+
+}
+
+.feature h2[class="primary-font"]{
+    font-size: 12px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+
+}
+
+.feature .featuer-iteams{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.feature .iteam{
+    padding-left:20px;
+   margin-bottom:30px;
+}
+
+
+    /* scrollbar  */
+
+
+    .scrollbar{
+        padding:0;
+        position: relative;
+        height: 210px;
+        background-image: url('../image/scrollbar-bg.jpg');
+        background-repeat: no-repeat;
+        cursor: pointer;
+
+    }
+
+    .scrollbar .carousel-inner{
+        margin-left:2rem;
+        width: 80rem;
+        z-index:1;
+    }
+
+    .infor-iteam{
+        position: relative;
+        margin-top:20px;
+    }
+
+    .infor-iteam h2{
+        font-size: 30px;
+        color: white;
+    }
+    .infor-iteam h3{
+        font-family: 'Fredericka the Great', cursive;
+        font-size: 20px;
+        margin:none;
+    }
+
+    .infor-iteam .image{
+        position: absolute;
+        top:-10px;
+        left:180px;
+        z-index: -2;
+    }
+
+    .infor-iteam .image img{
+        height: 150px;
+        width: 150px;
+    
+    }
+
+    .infor-iteam p{
+      margin-bottom: 10px;
+    }
+
+
+.infor-iteam  button{
+   
+    padding: 5px;
+
+}
+
+
+    /* ingredient */
+    .ingredient{
+        padding-top:30px;
+    }
+    .ingredient .container{
+        margin-left:2rem;
+        width: 25rem;
+        padding:10px 0;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 40px;
+    }
+
+    .ingredient .container div{
+     position: relative;
+    }
+
+    .ingredient .iteam-2{
+       position: absolute;
+       top:60px;
+       left:20px;
+    }
+
+    /* comment */
+
+    .comment{
+        position: relative;
+        background-image: url(../image/feature-bg.jpg);
+        background-position: no-repeat;
+        height: auto;
+        cursor: pointer;
+    
+    }
+
+    .comment .comment-title {
+        text-align: center;
+        width: 23rem;
+        margin:0 auto;
+        padding-top:80px;
+    }
+
+    .comment .carousel{
+        margin-left:4.5rem;
+        width: 25rem;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .comment .info{
+        margin-top:30px;
+    }
+
+    .comment .left-icon{
+        position: absolute;
+        top:900px;
+        left:-50px;
+    }
+    
+    
+    .comment .right-icon{
+        position: absolute;
+        top:900px;
+        right:50px;
+    }
+    
+
+
+    /* Mobile APP */
+    .mobileApp{
+        height: 160vh;
+    }
+    .mobileApp .container{
+        margin: 0 auto;
+        width: 25rem;
+        padding: 40px 0;
+    }
+    .container .infor-app{
+        display:grid;
+        grid-template-columns: 1fr;
+    
+    }
+
+    .mobileApp .app img{
+        margin-top:50px;
+        margin-left:4.5rem;
+        height: 60vh;
+        width: 30vh;
+        margin-bottom: 100px;
+    }
+
+
+    .mobileApp .info{
+        text-align: center;
+        margin:0 auto;
+         width: 23rem;
+    }
+
+    .info > h2{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .info ul{
+        margin-left:4rem;
+        text-align: left;
+    }
+
+    .info .download a{
+        display: inline-block;
+        margin-bottom: 30px;
+        margin-top:0;
+    
+    }
+
+     /* News PART */
+
+     .news{ 
+         padding-bottom: 5rem;
+        height: auto;
+    }
+
+    .news .container{
+        margin: 0 auto;
+        width: 25rem;
+    }
+
+    .news-feature{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 5rem;
+    
+    }
+
+
+    .news .news-iteam{
+        text-align: center;
+    }
+
+    .news-iteam h2{
+        text-align: center;
+    }
+
+
+    /* instagram */
+    .instagram .instagram-info{
+ 
+        width: 25rem;
+      
+    }
+
+
+    /* NEWSLETTER PART */
+    .newsletter{
+    
+    height: 250px;
+}
+
+    .newsletter .container{
+        margin: 0 auto;
+        width: 25rem;
+        text-align: center;
+        font-size: 18px;
+        padding-top:30px;
+    }
+
+    /* THIS IS THE CONTACT PART */
+    .contact{
+        background-image: url('../image/feature-bg.jpg');
+        height:auto;
+    }
+
+    .contact .container{
+        margin:0 auto;
+        width: 25rem;
+        text-align: center;
+    }
+
+}

@@ -1,0 +1,669 @@
+html{
+    font-size: 14px;
+}
+body,h2,p,h3,ul,li,input,h1,button{
+    margin: 0;
+}
+ul,input,button{
+    padding: 0;
+}
+
+.hide{
+    display: none;
+}
+
+
+.primary-font{
+    font-family: 'Abril Fatface',cursive;
+    color: #fdbc2c;
+    font-weight: 400;
+}
+
+
+
+/* this is the first part */
+.banner{
+    height: 80vh;
+    background: black;
+    color:white;
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-image: url('../image/banner-bg2.png');
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.banner-content {
+  width: 800px;
+}
+
+.banner-content > h1 {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 48px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.banner-content > h2 {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-size: 32px;
+}
+
+.banner a{
+    text-decoration: none;
+    margin-top:30px;
+    display: inline-block;
+    color: #fdbc2c;
+    font-size: 16px;
+    border: 1px solid #fdbc2c;
+    outline: 0;
+    padding: 8px 18px;
+    background: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.banner a:hover{
+    color: black;
+    background-color: #fdbc2c;
+}
+
+
+
+
+.logo{
+    background-color:black;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+}
+.logo img{
+    margin-top: 10px;
+    height: 30px;
+}
+
+
+/* this is the second part */
+.feature{
+    background:url('../image/feature-bg.jpg');
+    padding: 80px 0;
+    color:white;
+    text-align: center;
+}
+.feature .container{
+    width: 70rem;
+    margin:0 auto;
+
+}
+.feature h2[class="primary-font"]{
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.container > p{
+    margin:10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+}
+
+.featuer-iteams{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding-top: 50px;
+}
+.featuer-iteams .iteam{
+    padding-right: 20px;
+}
+.featuer-iteams .iteam p{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 12px;
+    line-height: 25px;
+}
+
+
+
+/* this is the third part */
+
+.scrollbar{
+    position: relative;
+    height: 300px;
+    background-image: url('../image/scrollbar-bg.jpg');
+    background-repeat: no-repeat;
+    cursor: pointer;
+
+}
+.scrollbar .carousel-inner{
+    height: 30rem;
+    margin:0 auto;
+    width: 67rem;
+    z-index:1;
+}
+    
+.infor-iteam{
+    position: relative;
+    margin-top:50px;
+}
+.infor-iteam h2{
+    font-size: 36px;
+    color: white;
+}
+.infor-iteam h3{
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 20px;
+    margin:20px 0;
+}
+.infor-iteam p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    margin-bottom: 20px;
+    z-index: 3;
+}
+
+.infor-iteam  button{
+    border-radius: 3px;
+    border: none;
+    outline: 0;
+    padding: 10px 25px;
+    background-color: #fdbc2c;
+    color: black;
+    font-size: 10px;
+}
+
+
+.infor-iteam .image{
+    position: absolute;
+    top:-40px;
+    left:550px;
+}
+.infor-iteam .image img{
+    height: 380px;
+    width: 380px;
+
+}
+
+.control-icon .left{
+    position: absolute;
+    top:130px;
+    left:60px;
+}
+.control-icon .right{
+    position: absolute;
+    top:130px;
+    right:60px;
+}
+
+.scrollbar .carousel:hover .control-icon{
+    display: block;
+}
+
+/* thsi is the order part */
+.order{
+    background-image:url('../image/feature-bg.jpg');
+    height:500px;
+}
+
+
+
+
+
+
+/* this is the ingredient part */
+.ingredient{
+    color:white;
+    font-family: 'Charm', cursive;
+    max-width: auto;
+    height: 300px;
+    background-image: url('../image/ingredient-bg.png');
+    background-size: cover;
+    
+}  
+
+.ingredient .container{
+    margin: 0 auto;
+    width: 60rem;
+    padding:100px 0;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-column-gap: 20px;
+}
+
+.ingredient .container div{
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    border-radius: 50%;
+    border:3px solid #ff6633;
+    background: transparent;
+    text-align: center;
+}
+
+
+.ingredient .iteam-1{
+    font-size: 60px;
+    font-family: 'Fredericka the Great', cursive;
+}
+.ingredient .iteam-2{
+    font-family: 'Charm', cursive;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+/* this is the comment part */
+.comment{
+    position: relative;
+    background-image: url(../image/feature-bg.jpg);
+    background-position: no-repeat;
+    height: 860px;
+    cursor: pointer;
+
+}
+
+.comment .carousel{
+    margin-left:23rem;
+    width: 70rem;
+    text-align: center;
+    padding-top: 50px;
+}
+.comment .carousel-item .info{
+   float: left;
+   margin-right:30px;
+}
+.comment h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.comment h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.comment img{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 20px;
+}
+.comment .carousel .iteam-info{
+    height: 210px;
+    width: 220px;
+    border:3px solid #ff6633;
+    text-align: center;
+
+    text-align: center;
+    padding: 20px;
+    color:white;
+    font-size: 20px;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left:20px;
+    margin-top:20px;
+    
+}
+
+
+.comment .comment-title {
+    text-align: center;
+    width: 70rem;
+    margin:0 auto;
+    padding-top:80px;
+}
+
+
+.comment .comment-title  p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.comment .info .name{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+    margin-top: 20px;
+}
+
+.comment .left-icon{
+    position: absolute;
+    top:300px;
+    left:-100px;
+}
+
+
+.comment .right-icon{
+    position: absolute;
+    top:300px;
+    right:80px;
+}
+
+.comment .carousel:hover .control-icon{
+    display: block;
+}
+
+
+
+
+
+
+
+/* this is the mobile part */
+.mobileApp{
+    background-image: url('../image/mobile-bg.png');
+    height: 100vh;
+}
+.mobileApp .app img{
+    height: 80vh;
+    width: 40vh;
+}
+
+.mobileApp .container{
+    margin: 0 auto;
+    width: 60rem;
+    padding: 80px 0;
+}
+
+.container .infor-app{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.info > h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.info p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    color: white;
+    line-height: 20px;
+    margin-bottom: 18px;
+}
+
+.info > h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.info ul{
+    padding:20px;
+    line-height: 20px;
+    color:#ff6633;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+}
+.info .download{
+    margin-top:20px;
+}
+
+.info .download a{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right:20px;
+    text-decoration: none;
+    color: #fdbc2c;
+    font-size: 12px;
+    border: 1px solid #fdbc2c;
+    outline: 0;
+    padding: 8px 18px;
+    background: transparent;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.info .download a:hover{
+  color: black;
+  background-color: #fdbc2c;
+  
+}
+
+
+
+
+/* News PART */
+
+.news{
+    background:url('../image/feature-bg.jpg');
+    height: 800px;
+}
+.news .container{
+    margin: 0 auto;
+    width: 70rem;
+}
+.news > h2{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.news .news-feature h2{
+    font-size: 26px;
+   
+}
+
+.news-feature{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 30px;
+
+}
+
+.news-feature .news-image{
+    border: 3px solid #ff6633;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 20px;
+    
+}
+.news-feature .news-image img{
+    height: 15rem;
+    width: 20rem;
+}
+.news-iteam span{
+    color: #ff6633;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.news-iteam h2{
+    text-align: left;
+    margin-top: 20px;
+}
+.news > h2{
+    padding-top: 5rem;
+    text-align: center;
+}
+.news p{
+    color:white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.news button{
+    padding:8px 20px;
+    background:#fdbc2c;
+    outline: 0;
+    border:none;
+    margin-top: 10px;
+}
+
+
+
+/* this is the instagram part */
+
+.instagram{
+    height: 400px;
+    background-image:url('../image/feature-bg.jpg');
+    position: relative;
+    overflow: hidden;
+  
+}
+
+
+
+.instagram ul {
+    width: 196rem;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: absolute;
+    left: 0;
+    animation: move 8s linear infinite;
+}
+.instagram ul li {
+    float: left;
+}
+
+.instagram li img{
+    height: 14rem;
+    width: 14rem;;
+}
+
+ul:hover {
+    animation-play-state: paused;
+}
+
+
+
+
+@keyframes move {
+    0% {
+        left: 0;
+    }
+
+    100% {
+        left: -100%;
+    }
+}
+
+
+
+.instagram .instagram-info{
+    margin:0 auto;
+    width: 60rem;
+    display:flex;
+    justify-content: center;
+    margin-top: 280px;
+}
+
+.instagram .instagram-info .arrow{
+    height: 40px;
+    padding-top:8px;
+    border:3px solid #ff6633;
+    width: 40px;
+    text-align: center;
+}
+
+    
+.instagram .instagram-info .center{
+    height: 40px;
+    line-height: 40px;
+    border:3px solid #ff6633;
+    border-left: none;
+    border-right: none;
+    width: 500px;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Josefin Sans', sans-serif;
+    color:white;
+}
+
+
+
+
+
+
+/* NEWSLETTER PART */
+.newsletter{
+    background-image: url('../image/newsletter-bg.png');
+    height: 170px;
+}
+.newsletter .container{
+    margin: 0 auto;
+    width: 70rem;
+    text-align: center;
+    font-size: 20px;
+    padding-top:30px;
+}
+
+.newsletter h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 20px;
+}
+
+.newsletter input{
+    display: inline-block;
+    box-sizing: border-box;
+    padding:5px 10px;
+    font-size: 12px;
+    border: 1px solid black;
+    outline: 0;
+    background: transparent;
+  
+}
+.newsletter button{
+    display: inline-block;
+    box-sizing: border-box;
+    outline: 0;
+
+    background: #000;
+    color: white;
+    border: none;
+    font-size: 12px;
+    padding:5px 10px;
+
+}
+
+
+/* THIS IS THE CONTACT PART */
+.contact{
+    background-image: url('../image/feature-bg.jpg');
+    height: 300px;
+}
+.contact .container{
+    margin:0 auto;
+    width: 60rem;
+    text-align: center;
+}
+
+.contact h1{
+    padding-top: 30px;
+    margin-bottom: 10px;
+    font-size: 48px;
+    font-family: 'Fredericka the Great', cursive;
+    color:#ff6633;
+}
+.contact h2{
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-family: 'Fredericka the Great', cursive;
+    color:#ff6633;
+}
+
+.contact img{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 20px;
+}
+.contact span{
+    font-size: 20px;
+    font-family: 'Fredericka the Great', cursive;
+    margin:20px 30px;
+    color:white;
+}
+
+
+
+
+
+
