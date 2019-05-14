@@ -1,6 +1,142 @@
 
 
-@media (max-width:996px){
+
+
+@media (max-width: 991px) {
+
+
+    /* scrollbar */
+    .scrollbar{
+        height: 250px;
+ 
+    }
+
+    .scrollbar .carousel-inner{
+        margin-left:5rem;
+        width: 80rem;
+        z-index:1;
+    }
+
+
+
+    .infor-iteam .image{
+        position: absolute;
+        top:30px;
+        left:430px;
+        z-index: -2;
+    }
+
+    .infor-iteam .image img{
+        height: 250px;
+        width: 250px;
+    
+    }
+
+    .infor-iteam{
+
+        margin-top:20px;
+    }
+
+    /* ingredient */
+    .ingredient{
+
+        height: 350px;
+        padding-bottom:30px;
+    }
+
+    /* comment */
+   
+
+    .comment .comment-title {
+        text-align: center;
+        width: 50rem;
+        margin:0 auto;
+        padding-top:80px;
+    }
+
+    .comment .carousel{
+        margin-left:10px;
+        width: 55rem;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .comment .carousel-item .info{
+        float: left;
+        margin-right:10px;
+     }
+
+
+
+     /* Mobile APP */
+    .mobileApp{
+        height: 650px;
+    }
+    .mobileApp .container{
+        margin-left:5rem;
+        width: 50rem;
+        padding: 40px 0;
+    }
+  
+
+    .mobileApp .app img{
+        margin-top:50px;
+        height: 50vh;
+        width: 25vh;
+ 
+    }
+
+    .container .info{
+        padding-top:50px;
+        width: 25rem;
+    }
+
+    .info .download a{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+
+    .info ul{
+        padding-bottom: 0;
+    }
+
+
+
+    /* news */
+    .news{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    .news-feature{
+        margin-left:5rem;
+        display: grid;
+        grid-template-columns: 500px;
+        grid-row-gap: 30px;
+    
+    }
+
+    .news-image{
+        text-align: center;
+    }
+
+    .news-feature{
+        text-align: center;
+    }
+
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width: 767px) {
     /* banner  */
     .banner-content > h2 {
         margin:16px 15px;
@@ -97,6 +233,8 @@
     /* ingredient */
     .ingredient{
         padding-top:30px;
+        height: auto;
+        padding-bottom:30px;
     }
     .ingredient .container{
         margin-left:2rem;

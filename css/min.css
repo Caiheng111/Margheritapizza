@@ -206,7 +206,7 @@ ul,input,button{
 /* thsi is the order part */
 .order{
     background-image:url('../image/feature-bg.jpg');
-    height:500px;
+    height:200px;
 }
 
 
@@ -219,7 +219,7 @@ ul,input,button{
     color:white;
     font-family: 'Charm', cursive;
     max-width: auto;
-    height: 300px;
+    height: 400px;
     background-image: url('../image/ingredient-bg.png');
     background-size: cover;
     
@@ -228,7 +228,7 @@ ul,input,button{
 .ingredient .container{
     margin: 0 auto;
     width: 60rem;
-    padding:100px 0;
+    padding-top:150px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-column-gap: 20px;
