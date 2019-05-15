@@ -1,4 +1,37 @@
 
+  @media (max-width: 1024px) {
+
+
+
+    .mobileApp{
+        height: 70vh;
+    }
+
+    .mobileApp .container{
+        margin: 0 auto;
+        width: 70rem;
+    }
+    .mobileApp .app img{
+        height: 60vh;
+        width: 30vh;
+    }
+    .container .infor-app{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap: 5rem;
+    
+    }
+
+    .info .download a{
+        margin-bottom: 2rem;
+        display: inline-block;
+    }
+
+
+
+  }
+
+
 
 
 
@@ -6,3 +39,38 @@
 
 
     
+
+
+    @media (max-width: 992px) {
+
+
+
+        .banner-content > h1 {
+   
+            font-size: 100px;
+          }
+
+          .banner-content > h2 {
+  
+            font-size: 46px;
+          }
+
+
+
+            .comment .carousel{
+                margin-left:15rem;
+               
+            }
+
+
+            .news .container{
+               margin-left:7rem;
+                width: 60rem;
+            }
+
+
+
+     
+    }
+
+      
