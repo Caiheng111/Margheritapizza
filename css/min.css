@@ -1,6 +1,12 @@
 html{
     font-size: 14px;
 }
+
+body{
+    min-width: 1200px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 body,h2,p,h3,ul,li,input,h1,button{
     margin: 0;
 }
@@ -272,8 +278,8 @@ ul,input,button{
 }
 
 .comment .carousel{
-    margin-left:23rem;
-    width: 70rem;
+    margin-left:22rem;
+    width: 60rem;
     text-align: center;
     padding-top: 50px;
 }
