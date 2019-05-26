@@ -350,10 +350,10 @@ ul,input,button{
 .comment .right-icon{
     position: absolute;
     top:300px;
-    right:80px;
+    right:-30px;
 }
 
-.comment .carousel:hover .control-icon{
+.comment:hover .control-icon{
     display: block;
 }
 
