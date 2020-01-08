@@ -366,26 +366,28 @@ ul,input,button{
 /* this is the mobile part */
 .mobileApp{
     background-image: url('../image/mobile-bg.png');
-    height: 100vh;
+    background-size: cover;
+    height: 90vh;
 }
 .mobileApp .app img{
-    height: 80vh;
+    height:85vh;
     width: 40vh;
 }
 
 .mobileApp .container{
     margin: 0 auto;
-    width: 60rem;
+    width: 65rem;
     padding: 80px 0;
 }
 
 .container .infor-app{
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
 
 }
 
 .info > h2{
+    padding-top: 100px;
     font-size: 32px;
     margin-bottom: 20px;
 }
